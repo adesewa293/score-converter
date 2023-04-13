@@ -1,1 +1,34 @@
-styles.css
+.body {
+    background-color: black;
+}
+
+
+
+#grade {
+    color: green;
+    font-weight: 300;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+    background-color: gray;
+}
+.header {
+    background-color: grey;
+    padding: 100px;
+    text-align: center;
+    font-size: 100px;
+}
+.inputbox {
+    width: 50%;
+    padding: 20px;
+}
+.button {
+    border-radius: 10px;
+    border-style: dotted;
+    height: 60px;
+    width: 45%;
+}
+.answer {
+    font-size: 80px;
+    text-align: center;
+    color: burlywood;
+}

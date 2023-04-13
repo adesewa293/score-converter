@@ -5,12 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>students score converter</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-    <h1>Grade Converter</h1>
-    <input type="number" min="0" max="100" id="numericGrade"></input>
-    <button onclick="convert()">Convert</button> <br />
-    Your letter grade is <span id="grade">N/A</span>
+<body class="body">
+    <h1 class="header">Grade Converter</h1>
+    <input class="inputbox" type="number" min="0" max="100" id="numericGrade"></input>
+    <button class="button" onclick="convert()">Convert</button> <br />
+    <p class="answer">Your letter grade is <span id="grade">N/A</span></p>
 
     <script src="script.js">
     
